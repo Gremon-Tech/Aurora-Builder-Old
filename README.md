@@ -1,8 +1,9 @@
 This is AuroraOS Source's docs<br>
 ===
-##English Docs:<br>
+English Docs:<br>
+---
 AuroraOS's the latest version is AuroraOS Night Pre-Preview(OS Code: 17001)<br>
-###This is release notes:<br>
+### This is release notes:<br>
 OS Code: 17001:<br>
 This is AuroraOS's first version.It's based ArchLinux.This version add many packages,such as KDE-Plasma-Desktop,Vim,sudo.But you have to remember that this is an experimental version!<br>
 ###How to use?<br>
