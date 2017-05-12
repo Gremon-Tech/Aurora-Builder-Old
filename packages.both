@@ -2,6 +2,7 @@ sudo
 xorg
 sddm
 plasma-desktop
+plasma-wayland-session
 kde-l10n-zh_cn
 dolphin
 kwrite
