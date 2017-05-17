@@ -2,7 +2,7 @@
 
 set -e -u
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#\(zh_CN\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
@@ -19,7 +19,8 @@ sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
+mv aurora_local/ /etc/pacman.d/aurora_local
+
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 systemctl enable sddm.service
-systemctl start sddm

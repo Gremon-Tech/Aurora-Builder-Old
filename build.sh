@@ -2,9 +2,9 @@
 
 set -e -u
 
-iso_name=auroraos-night-pre-preview-17001
+iso_name=AuroraOS-Night
 iso_label="AURORA_$(date +%Y%m)"
-iso_version=$(date +%Y.%m.%d)
+iso_version=$(17011)
 install_dir=arch
 work_dir=work
 out_dir=out
