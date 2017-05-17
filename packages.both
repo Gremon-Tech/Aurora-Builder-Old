@@ -1,7 +1,12 @@
 octopi
 xorg
 sddm
+<<<<<<< HEAD
 plasma
+=======
+plasma-desktop
+plasma-wayland-session
+>>>>>>> origin/master
 kde-l10n-zh_cn
 chromium
 libreoffice
@@ -72,4 +77,5 @@ wireless_tools
 wpa_actiond
 wvdial
 xl2tpd
+xf86-video-vmware
 zd1211-firmware
