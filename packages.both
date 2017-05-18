@@ -1,12 +1,6 @@
 octopi
 xorg
-sddm
-<<<<<<< HEAD
 plasma
-=======
-plasma-desktop
-plasma-wayland-session
->>>>>>> origin/master
 kde-l10n-zh_cn
 chromium
 libreoffice
