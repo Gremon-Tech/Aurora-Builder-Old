@@ -4,7 +4,7 @@ set -e -u
 
 iso_name=AuroraOS-Night
 iso_label="AURORA_$(date +%Y%m)"
-iso_version=$(17011)
+iso_version=$(echo +17003)
 install_dir=arch
 work_dir=work
 out_dir=out
