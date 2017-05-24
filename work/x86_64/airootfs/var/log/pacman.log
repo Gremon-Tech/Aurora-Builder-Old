@@ -1,4 +1,0 @@
-[2017-05-25 00:15] [PACMAN] Running 'pacman -r work/x86_64/airootfs -Sy --config=work/pacman.conf base syslinux'
-[2017-05-25 00:15] [PACMAN] synchronizing package lists
-[2017-05-25 00:16] [PACMAN] Running 'pacman -r work/x86_64/airootfs -Sy --config=work/pacman.conf base syslinux'
-[2017-05-25 00:16] [PACMAN] synchronizing package lists
