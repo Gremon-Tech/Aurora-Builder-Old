@@ -15,7 +15,7 @@ This is AuroraOS's first version.It's based ArchLinux.This version add many pack
 ### How to use?<br>
 First,you must have a X86_64 schema computer and a Arch Linux.Next,you also must install some packages.<br>
 Now,please install these packages:<br>
-```Shell
+```
 arch-install-scripts
 dosfstools
 libisoburn
@@ -44,7 +44,7 @@ AuroraOS最新的版本是AuroraOS Night Pre-Preview(OS Code: 17003)<br>
 ### 如何使用？<br>
 首先，你必须有一个X86_64架构的计算机，而且拥有一个Arch Linux操作系统。下一步，你还需要安装一些软件包<br>
 现在，请安装这些软件包：<br>
-```Shell
+```
 arch-install-scripts
 dosfstools
 libisoburn
